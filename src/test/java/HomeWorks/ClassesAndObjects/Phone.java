@@ -31,9 +31,9 @@ public class Phone {
         phone3.number = 3990002131L;
         phone3.weight = 130.2;
 
-        System.out.println("HomeWorks.ClassesAndObjects.Phone " + phone1.model + ", weight " + phone1.weight + "g, number " + phone1.number);
-        System.out.println("HomeWorks.ClassesAndObjects.Phone " + phone2.model + ", weight " + phone2.weight + "g, number " + phone2.number);
-        System.out.println("HomeWorks.ClassesAndObjects.Phone " + phone3.model + ", weight " + phone3.weight + "g, number " + phone3.number + "\n");
+        System.out.println("Phone " + phone1.model + ", weight " + phone1.weight + "g, number " + phone1.number);
+        System.out.println("Phone " + phone2.model + ", weight " + phone2.weight + "g, number " + phone2.number);
+        System.out.println("Phone " + phone3.model + ", weight " + phone3.weight + "g, number " + phone3.number + "\n");
 
         phone1.receiveCall("Mike");
         phone2.receiveCall("Nick");

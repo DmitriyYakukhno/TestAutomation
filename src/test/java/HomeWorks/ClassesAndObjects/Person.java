@@ -7,11 +7,11 @@ public class Person {
     int age;
 
     public void move() {
-        System.out.println("HomeWorks.ClassesAndObjects.Person move");
+        System.out.println("Person move");
     }
 
     public void talk() {
-        System.out.println("HomeWorks.ClassesAndObjects.Person talk");
+        System.out.println("Person talk");
     }
 
     public Person() {
@@ -28,7 +28,7 @@ public class Person {
         person1.fullName = "Adam";
         person1.age = 20;
 
-        Person person2 = new Person("Eve",19);
+        Person person2 = new Person("Eve", 19);
 
     }
 

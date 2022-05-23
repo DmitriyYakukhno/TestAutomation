@@ -11,7 +11,7 @@ public class Reader {
     public void takeBooks(int takenBooks, int booksToGive){
         int allBooks = takenBooks + booksToGive;
         int forfeit = (allBooks - 5) * 50;;
-        System.out.println("HomeWorks.ClassesAndObjects.Reader Petrov took today " + booksToGive + " books. Total amount of books which reader took is " + allBooks + " books");
+        System.out.println("Reader Petrov took today " + booksToGive + " books. Total amount of books which reader took is " + allBooks + " books");
         if (allBooks > 5){
             System.out.println("Limit exceeded. The amount of the forfeit = " + forfeit + " hryvnias");
         } else {
@@ -23,7 +23,7 @@ public class Reader {
         int allBooks = takenBooks - returnBooks;
         int forfeit1 = (takenBooks - 5) * 50;
         int forfeit2 = (allBooks - 5) * 50;
-        System.out.println("HomeWorks.ClassesAndObjects.Reader Petrov returned today " + returnBooks + " books. Total amount of books which reader is left is " + allBooks + " books");
+        System.out.println("Reader Petrov returned today " + returnBooks + " books. Total amount of books which reader is left is " + allBooks + " books");
         if (takenBooks > 5){
             System.out.println("Limit exceeded. The amount of the forfeit = " + forfeit1 + " hryvnias");
         } else {
