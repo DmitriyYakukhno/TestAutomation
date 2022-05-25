@@ -42,7 +42,6 @@ public class Phone {
         phone1.getNumber(phone1);
         phone2.getNumber(phone2);
         phone3.getNumber(phone3);
-
     }
 
     public Phone(long number, String model, double weight){
@@ -56,7 +55,8 @@ public class Phone {
         this.model = model;
     }
 
-    public Phone(){};
+    public Phone(){
+    }
 
 }
 
