@@ -7,10 +7,10 @@ import ZakazTestPop.PagesZakaz.SearchResultPageElements;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TestCheckSearch extends TestInit{
+public class TestCheckSearch extends TestInit {
 
     @Test
-    public void checkOrderDrink(){
+    public void checkOrderDrink() {
 
         HomePageElements homePageElements = new HomePageElements(driver);
         homePageElements.navigate();
