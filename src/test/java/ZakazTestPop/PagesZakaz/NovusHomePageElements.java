@@ -10,7 +10,7 @@ public class NovusHomePageElements extends BasePageElements{
         super(driver);
     }
 
-    public WebElement getHomeAddress(){
+    public WebElement getHomeAddressBtn(){
         return driver.findElement(By.xpath("//span[@class='jsx-2440653761 AddressButton__label']"));
     }
 

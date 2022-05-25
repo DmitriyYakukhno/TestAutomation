@@ -17,7 +17,7 @@ public class TestCheckHomeAddress extends TestInit {
 
         NovusHomePageElements novusHomePageElements = new NovusHomePageElements(driver);
         sleep(2);
-        novusHomePageElements.getHomeAddress().click();
+        novusHomePageElements.getHomeAddressBtn().click();
 
         AddressPageElements addressPageElements = new AddressPageElements(driver);
         sleep(2);
