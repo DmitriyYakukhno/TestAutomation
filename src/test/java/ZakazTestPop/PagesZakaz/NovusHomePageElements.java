@@ -26,5 +26,8 @@ public class NovusHomePageElements extends BasePageElements {
         return driver.findElement(By.xpath("//div[@data-testid= 'loupe']"));
     }
 
+    public WebElement getQuestionsAnswers() {
+        return driver.findElement(By.xpath("//a[contains(text(), 'Питання та відповіді')]"));
+    }
 }
 
