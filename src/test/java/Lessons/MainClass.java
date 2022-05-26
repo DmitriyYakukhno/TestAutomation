@@ -21,12 +21,5 @@ public class MainClass {
     }
 
 
-//        int[] arr = {2, 3, 4, 7};
-//        System.out.println(arr.length);
-//        for (int i = 1; i < n; i++) {
-//            str = str + str;
-//        }
-//        System.out.println(str);
-
 
 }
